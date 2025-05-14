@@ -4,7 +4,9 @@ using namespace std;
 
 // maximum subarray sum usando soma de prefixos - 
 
+// CSES - 1643 
 int main() {
+    ios_base::sync_with_stdio(0); cin.tie(0);
     int n; cin >> n;
     vector<int> arr(n, 0);
     // Vetor da soma de prefixos
